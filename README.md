@@ -8,26 +8,30 @@ Most things start here before they grow into something bigger.
 
 Repo Structure
 
-apps/
-Runnable apps and tools that actually work (even if they’re still rough).
+Projects
 
-labs/
-Experiments, utilities, test scripts, and random ideas.
+ CRI
+Capital Rotation Index for crypto markets.
 
-docs/
-Notes, screenshots, and diagrams.
+This tool looks at how capital moves between Bitcoin and major altcoins and builds a simple composite index that shows whether the market is in a BTC-dominant phase or an altcoin expansion phase.
 
-Tools/
+---
 
-How This Fits With My Other Repos
+Material Handler
 
-ZeroTech → my build lab
-ZeroDivisionTech → larger public projects / storefront
-DivisionTech → private logic and internal code
+Simple material list helper for construction jobs.
 
-Projects can start here and later move into their own repo if they grow into something bigger.
+Built to make it easier to track materials, costs, and job planning without spreadsheets getting out of control.
 
-Goal
+---
+
+Philosophy is that
+
+Small tools are better than giant systems.
+
+Build something useful.  
+Make it simple.  
+Share it.
 
 Build tech for all trades.
 
