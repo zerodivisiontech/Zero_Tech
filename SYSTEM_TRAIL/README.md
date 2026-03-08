@@ -58,7 +58,7 @@ The game will run your code and check the result.
 
 This project started as an idea for a **free coding adventure**.
 
-If this would have helped you when you were learning Python!or if you try it and have ideas, feedback is important.
+If this would have helped you when you were learning Python or if you try it and have ideas, feedback is important.
 
 If people find this useful the project will continue growing.
 
@@ -72,4 +72,4 @@ If not, it was still a fun experiment also definitly somthing i that got alot of
 - More cities and regions
 - Side quests and bosses
 - Community-created worlds and puzzles
-- and many more features 
+- And many more features 
