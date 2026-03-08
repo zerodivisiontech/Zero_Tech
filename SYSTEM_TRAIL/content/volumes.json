@@ -1,0 +1,22 @@
+{
+  "output": {
+    "name": "Volume of Output",
+    "description": "Restores the ability to send visible messages into the System."
+  },
+  "variables": {
+    "name": "Volume of Variables",
+    "description": "Restores the ability to store and reuse values."
+  },
+  "loops": {
+    "name": "Volume of Loops",
+    "description": "Restores the ability to repeat actions without writing them over and over."
+  },
+  "conditions": {
+    "name": "Volume of Conditions",
+    "description": "Restores the ability to make decisions inside the System."
+  },
+  "functions": {
+    "name": "Volume of Functions",
+    "description": "Restores the ability to build reusable modules from logic."
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+  "title": "The Ruined Terminal",
+  "story": "You wake in the ruins of Data City. A cracked terminal flickers. The System cannot speak until output is restored.",
+  "volume_key": "output",
+  "challenge_text": "Restore the terminal so the system can say: System Online",
+  "expected_output": "System Online",
+  "clues": [
+    "Fragment of the Volume of Output: The system once used the word 'print' to send messages.",
+    "Fragment: Messages were wrapped inside quotation marks \"like this\".",
+    "Fragment: The command placed the message inside parentheses ( )."
+  ]
+  },
+  {
+     "id": 2,
+  "title": "The Supply Cache",
+  "story": "A supply machine sputters to life. It needs memory to store how many rations remain.",
+  "volume_key": "variables",
+  "challenge_text": "Store the number 5 in a variable named rations and print it.",
+  "expected_output": "5",
+  "clues": [
+    "Fragment of the Volume of Variables: Values were stored using the = symbol.",
+    "Fragment: A name like rations can hold a number.",
+    "Fragment: Stored values could be printed just like messages."
+  ]
+  },
+  {
+     "id": 3,
+  "title": "The Water Pump",
+  "story": "A district water pump requires a repeating signal to prime the pipes.",
+  "volume_key": "loops",
+  "challenge_text": "Print the numbers 1 through 5.",
+  "expected_output": "1\n2\n3\n4\n5",
+  "clues": [
+    "Fragment of the Volume of Loops: The word 'for' began repetition.",
+    "Fragment: Repetition often used 'range'.",
+    "Fragment: Loops end with a colon :"
+  ]
+  },
+  {
+    "id": 4,
+    "title": "The Firewall Gate",
+    "story": "You reach the old Firewall Gate. It only opens for safe travelers. The control panel still works, but it needs decision logic restored.",
+    "volume_key": "conditions",
+    "challenge_text": "Write Python code that creates a variable named access with the value True. If access is True, print Access Granted. Otherwise print Access Denied.",
+    "expected_output": "Access Granted"
+  },
+  {
+    "id": 5,
+    "title": "The Memory Lift",
+    "story": "Deep beneath the city, the Memory Lift is still intact. It can raise the first Archive Core, but only if you restore a reusable system function.",
+    "volume_key": "functions",
+    "challenge_text": "Write Python code that defines a function named restore() which prints Archive Restored, then call the function.",
+    "expected_output": "Archive Restored"
+  }
+]
