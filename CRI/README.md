@@ -1,81 +1,25 @@
-# Capital Rotation Index (CRI)
+🚀 Project Evolution: Towards a Liquidity Ecosystem
+NOTICE: Institutional Upgrade & Strategic Integration
+Effective April 2026: The Crypto Rotational Index (CRI) has been promoted into a comprehensive, professional-grade financial suite.
 
-This is a small research tool for watching how money moves around the crypto market.
+While this repository remains public as the functional proof-of-concept from the February 2026 licensed build, all advanced development is transitioning to a private, multi-layered infrastructure designed for institutional trust.
 
-Instead of trying to predict price, CRI looks at **capital rotation** between Bitcoin and major altcoins.
+The Core Pillars of the New Ecosystem:
+Liquidity Trust: The central engine for advanced rotational logic and high-fidelity market analysis.
 
-Sometimes the market piles into BTC.  
-Sometimes liquidity spreads out into alts.
+Verified: Our proprietary validation layer, ensuring data integrity across every transaction.
 
-CRI tries to measure that shift.
+Certified: The compliance and auditing standard for rotational risk management.
 
-This is not a trading bot and it's not financial advice.  
-It's just a lens for looking at market structure.
+Secure: The hardened vault for private algorithmic strategies and institutional asset protection.
 
----
+What this means for the Public Repository:
+Legacy Archive: This version serves as the historical "Alpha" build of the CRI framework.
 
-## Signals Used
+Advanced Development: The "V2" suite—built on the Verified, Certified, and Secure protocols—is now being developed privately to maintain its proprietary advantage within a liquidity ecosystem.
 
-The current version combines a few simple signals:
-
-- ETH/BTC trend
-- SOL/BTC momentum
-- BTC volatility compression
-- BTC dominance movement
-
-Each signal is normalized using a rolling **z-score** so they can be compared on the same scale.
-
-Those signals are averaged into the **Capital Rotation Index (CRI)**.
-
----
-
-## How To Read It
-
-General guide:
-
-CRI > 1  
-Altcoin expansion phase
-
-CRI between -1 and 1  
-Mixed / transition market
-
-CRI < -1  
-Bitcoin dominance phase
-
-The index is meant to show **market regime**, not exact buy or sell signals.
-
-There is more ifo on this in CRI_docs.
-
----
-
-## Setup
-
-Create a virtual environment:
-
-python -m venv .venv
-
-Activate it:
-
-.\.venv\Scripts\activate
-
-Install dependencies:
-
-pip install -r requirements.txt
-
----
-
-## Run
-
-From inside the CRI folder:
-
-python projects/regime/cri_plot.py
-
-The script generates a chart showing BTC price and the CRI regime index.
-
----
-
-## Notes
-
-This is an open project.
-
+Strategic Inquiries & Acquisition Requests:
+For documentation regarding the evolved suite or to discuss asset acquisition, please contact:
+📧 acquisitions@liquiditytrust.com
+🌐 LiquidityTrust.com
 If you want to experiment with different signals or improve the model, fork it and build on it.
